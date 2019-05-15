@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "collections": [
+    {
+      "id": 1711603,
+      "slug": "45e4bc6b72d9",
+      "title": "生活",
+      "avatar": "http://upload.jianshu.io/collections/images/1711603/1548006501.jpg",
+      "owner_name": "故事的四分之一"
+    },
+    {
+      "id": 261141,
+      "slug": "fa85b0671c8e",
+      "title": "艺海",
+      "avatar": "http://upload.jianshu.io/collections/images/261141/android.graphics.Bitmap_15030f9f.jpeg",
+      "owner_name": "Jingjingx"
+    },
+    {
+      "id": 45,
+      "slug": "BATtWp",
+      "title": "艺术",
+      "avatar": "http://upload.jianshu.io/collections/images/45/2007112012211889_2.jpg",
+      "owner_name": "简书"
+    },
+    {
+      "id": 1711600,
+      "slug": "0f3cd8846e99",
+      "title": "简书面面观",
+      "avatar": "http://upload.jianshu.io/collections/images/1711600/crop1548005242199.jpg",
+      "owner_name": "张守柔"
+    },
+    {
+      "id": 1760524,
+      "slug": "747ecb5da3f6",
+      "title": "艺术设计",
+      "avatar": "http://upload.jianshu.io/collections/images/1760524/untitled.png",
+      "owner_name": "墨马"
+    }
+  ],
+  "page": 1,
+  "total_pages": 1
+}

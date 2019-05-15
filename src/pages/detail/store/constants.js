@@ -1,0 +1,1 @@
+export const GET_ARTICLE_CONTENTS_LIST = "detail/GET_CONTENTS_LIST";

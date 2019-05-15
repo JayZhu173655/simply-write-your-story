@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {Link, Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {actionCreators} from './store';
 
 import {LoginWrapper, InputWrapper, LoginTitle} from './style';
 
-class Login extends Component {
+class Login extends PureComponent {
     render() {
         if(!this.props.loginStatus){
             return (

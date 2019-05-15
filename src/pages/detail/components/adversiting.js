@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
 import {Adversiting} from '../style';
 
 
-class AdverWrapper extends Component {
+class AdverWrapper extends PureComponent {
     render (){
         return (
             <Adversiting>

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {CSSTransition} from 'react-transition-group';
@@ -83,7 +83,7 @@ const Header = (props) => {
 };
 */
 // Header组件可以简写成无状态组件 提高性能
-class Header extends Component {
+class Header extends PureComponent {
 
     getListArea = () => {
         const {focused, list, page, totalPage, handleMouseEnter,handleMouseLeave, mouseIn,handleChangePage} = this.props;
@@ -229,7 +229,6 @@ const mapDispatchToProps = (dispatch) => {
             }
         },
         handleSignOut(){
-            console.log('退出登录');
             dispatch(loginActionCreators.changeSigninStatus());
         }
     }

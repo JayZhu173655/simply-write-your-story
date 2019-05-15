@@ -1,4 +1,4 @@
-import React, {Component, Fragment}from 'react';
+import React, {PureComponent, Fragment}from 'react';
 // 管理store，让每个子组件都可以获取store
 import {Provider} from 'react-redux';
 import {BrowserRouter, Route} from 'react-router-dom';
@@ -15,7 +15,7 @@ import SignUp from './pages/signUp';
 import Write from './pages/write';
 
 
-class App extends Component{
+class App extends PureComponent{
     render(){
         return (
             <Provider store={store}>

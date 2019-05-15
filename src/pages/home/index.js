@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {connect} from 'react-redux';
 import Topic from './components/Topic';
 import List from './components/List';
@@ -14,7 +14,7 @@ import {
 import {actionCreators} from './store';
 //import {Addition, HeaderWrapper} from "../../common/header/style";
 
-class Home extends Component {
+class Home extends PureComponent {
     handleScrollTop(){
         window.scrollTo(0, 0);
     }

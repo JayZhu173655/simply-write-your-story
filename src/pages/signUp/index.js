@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {Link} from 'react-router-dom';
 
 import {LoginWrapper, InputWrapper, LoginTitle} from '../signIn/style';
 
-class SignUp extends Component {
+class SignUp extends PureComponent {
     render() {
         return (
             <LoginWrapper>

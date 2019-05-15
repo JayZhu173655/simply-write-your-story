@@ -1,10 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React, {PureComponent, Fragment} from 'react';
 import {connect} from 'react-redux';
 import {TitleWrapper, AuthorInfo, AboutAuthor,AuthorInfomation, ArticleInfomation, ArticleContentDetail} from '../style';
 import {getContentList} from '../store/actionCreators';
 
 
-class ContentWrapper extends Component {
+class ContentWrapper extends PureComponent {
     render(){
         return (
             <Fragment>

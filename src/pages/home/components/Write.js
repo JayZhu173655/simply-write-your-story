@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import { connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {
@@ -15,7 +15,7 @@ import {
 } from '../style';
 import {getAuthors, changePage} from "../store/actionCreators";
 
-class Write extends Component {
+class Write extends PureComponent {
 
     getAuthorsList = () => {
         const {handleChangeAuthors, page, totalPage, users} = this.props;

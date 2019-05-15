@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import ContentWrapper from './articleContent';
 import {ArticleContentWrapper} from '../style';
 
-class ArticleContent extends Component {
+class ArticleContent extends PureComponent {
     render(){
         return (
             <ArticleContentWrapper>
